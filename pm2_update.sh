@@ -1,0 +1,1 @@
+pm2 restart resme_engine

@@ -1,0 +1,1 @@
+pm2 start ./resy/resy.py --name "resme_engine" -i 1 --cron-restart="0 9 * * *" --interpreter=.venv/bin/python3

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "COTE Miami",
+    "enabled": true,
+    "forceStart": true,
+    "venueID": 72270,
+    "partyMin": 4,
+    "partyMax": 5,
+    "grabMax": 2,
+    "baseURL": "https://resy.com/cities/mia/cote-mia",
+    "offset": 28,
+    "accountType": "normal",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:58",
+      "drop": "06:30:00",
+      "end": "06:30:30",
+      "timer": 4,
+      "delay": 3,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch"
+      ],
+      "timeFilter": {
+        "enabled": false,
+        "minTime": 17,
+        "maxTime": 22
+      }
+    }
+  }
+]

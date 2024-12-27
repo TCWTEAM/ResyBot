@@ -1,0 +1,28 @@
+[
+  {
+    "name": "4 Charles",
+    "enabled": true,
+    "venueID": 834,
+    "partyMin": 4,
+    "partyMax": 6,
+    "grabMax": 80,
+    "baseURL": "https://resy.com/cities/ny/4-charles-prime-rib",
+    "offset": 20,
+    "accountType": "elite",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "08:58",
+      "drop": "09:00:00",
+      "end": "09:01:00",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar"
+      ],
+      "timeFilter": {
+        "enabled": false
+      }
+    }
+  }
+]

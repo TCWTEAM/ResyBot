@@ -1,0 +1,448 @@
+[
+  {
+    "name": "COTE Miami",
+    "enabled": false,
+    "forceStart": false,
+    "venueID": 72270,
+    "partyMin": 4,
+    "partyMax": 4,
+    "grabMax": 1,
+    "baseURL": "https://resy.com/cities/mia/cote-mia",
+    "offset": 28,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:58",
+      "drop": "10:00:00",
+      "end": "10:01:30",
+      "timer": 4,
+      "delay": 3,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 17,
+        "maxTime": 22
+      }
+    }
+  },
+  {
+    "name": "COTE Korean Steakhouse",
+    "enabled": true,
+    "venueID": 72271,
+    "partyMin": 4,
+    "partyMax": 6,
+    "grabMax": 20,
+    "baseURL": "https://resy.com/cities/ny/cote-nyc",
+    "offset": 30,
+    "accountType": "normal",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:58",
+      "drop": "10:00:00",
+      "end": "10:01:30",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 17,
+        "maxTime": 22
+      }
+    }
+  },
+  {
+    "name": "4 Charles",
+    "enabled": true,
+    "venueID": 834,
+    "partyMin": 4,
+    "partyMax": 6,
+    "grabMax": 25,
+    "baseURL": "https://resy.com/cities/ny/4-charles-prime-rib",
+    "offset": 21,
+    "accountType": "elite",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "08:58",
+      "drop": "09:00:00",
+      "end": "09:02:00",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar"
+      ],
+      "timeFilter": {
+        "enabled": false
+      }
+    }
+  },
+  {
+    "name": "Don Angie",
+    "enabled": false,
+    "venueID": 1505,
+    "partyMin": 2,
+    "partyMax": 6,
+    "grabMax": 25,
+    "baseURL": "https://resy.com/cities/ny/don-angie",
+    "offset": 6,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "08:58",
+      "drop": "09:00:00",
+      "end": "09:02:00",
+      "timer": 5,
+      "delay": 0,
+      "exclude": [
+        "bar"
+      ],
+      "timeFilter": {
+        "enabled": false
+      }
+    }
+  },
+  {
+    "name": "L Artusi",
+    "enabled": true,
+    "forceStart": false,
+    "venueID": 25973,
+    "partyMin": 2,
+    "partyMax": 4,
+    "grabMax": 15,
+    "baseURL": "https://resy.com/cities/ny/lartusi-ny",
+    "offset": 14,
+    "accountType": "normal",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "08:59",
+      "drop": "09:00:00",
+      "end": "09:01:00",
+      "timer": 2,
+      "delay": 0,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "patio",
+        "counter"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 16,
+        "maxTime": 22
+      }
+    }
+  },
+  {
+    "name": "TATIANA By Kwame Onwuachi",
+    "enabled": true,
+    "venueID": 65452,
+    "partyMin": 3,
+    "partyMax": 6,
+    "grabMax": 20,
+    "baseURL": "https://resy.com/cities/ny/tatiana",
+    "offset": 27,
+    "accountType": "normal",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "11:58",
+      "drop": "12:00:00",
+      "end": "12:01:30",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch"
+      ],
+      "timeFilter": {
+        "enabled": false
+      }
+    }
+  },
+  {
+    "name": "Carbone Miami",
+    "enabled": false,
+    "venueID": 43225,
+    "partyMin": 2,
+    "partyMax": 4,
+    "grabMax": 10,
+    "baseURL": "https://resy.com/cities/mia/carbone-miami",
+    "offset": 30,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:59",
+      "drop": "10:00:00",
+      "end": "10:01:30",
+      "timer": 2,
+      "delay": 0.5,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "patio"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 17,
+        "maxTime": 22
+      }
+    }
+  },
+  {
+    "name": "Funke",
+    "enabled": false,
+    "venueID": 60000,
+    "partyMin": 2,
+    "partyMax": 4,
+    "grabMax": 3,
+    "baseURL": "https://resy.com/cities/la/funke-la",
+    "offset": 7,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "11:59",
+      "drop": "12:00:00",
+      "end": "12:00:30",
+      "timer": 3,
+      "delay": 3,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "patio"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 17,
+        "maxTime": 21
+      }
+    }
+  },
+  {
+    "name": "I Sodi",
+    "enabled": true,
+    "venueID": 443,
+    "partyMin": 2,
+    "partyMax": 4,
+    "grabMax": 20,
+    "baseURL": "https://resy.com/cities/ny/i-sodi",
+    "offset": 14,
+    "accountType": "normal",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "23:58",
+      "drop": "00:00:00",
+      "end": "00:01:30",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "patio"
+      ],
+      "timeFilter": {
+        "enabled": false
+      }
+    }
+  },
+  {
+    "name": "Le Bernardin",
+    "enabled": true,
+    "venueID": 1387,
+    "partyMin": 2,
+    "partyMax": 4,
+    "grabMax": 10,
+    "baseURL": "https://resy.com/cities/ny/le-bernardin",
+    "offset": 14,
+    "accountType": "normal",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "06:58",
+      "drop": "07:00:00",
+      "end": "07:01:30",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "patio"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 17,
+        "maxTime": 22
+      }
+    }
+  },
+  {
+    "name": "Lilia",
+    "enabled": false,
+    "venueID": 418,
+    "partyMin": 2,
+    "partyMax": 4,
+    "grabMax": 10,
+    "baseURL": "https://resy.com/cities/ny/lilia",
+    "offset": 28,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:59",
+      "drop": "10:00:00",
+      "end": "10:01:00",
+      "timer": 2,
+      "delay": 0.5,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "patio"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 17,
+        "maxTime": 21
+      }
+    }
+  },
+  {
+    "name": "COQODAQ",
+    "enabled": true,
+    "venueID": 76033,
+    "partyMin": 4,
+    "partyMax": 6,
+    "grabMax": 20,
+    "baseURL": "https://resy.com/cities/ny/coqodaq",
+    "offset": 14,
+    "accountType": "normal",
+    "passiveMonitoring": true,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:58",
+      "drop": "10:00:00",
+      "end": "10:01:30",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch"
+      ],
+      "timeFilter": {
+        "enabled": true
+      }
+    }
+  },
+  {
+    "name": "Laser Wolf Brooklyn",
+    "enabled": false,
+    "venueID": 58848,
+    "partyMin": 2,
+    "partyMax": 6,
+    "grabMax": 3,
+    "baseURL": "https://resy.com/cities/ny/laser-wolf-brooklyn",
+    "offset": 21,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:59",
+      "drop": "10:00:00",
+      "end": "10:01:00",
+      "timer": 2,
+      "delay": 1,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "counter"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 18,
+        "maxTime": 22
+      }
+    }
+  },
+  {
+    "name": "Raouls",
+    "enabled": false,
+    "venueID": 7241,
+    "partyMin": 2,
+    "partyMax": 5,
+    "grabMax": 3,
+    "baseURL": "https://resy.com/cities/ny/raoulsrestaurant",
+    "offset": 30,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "07:59",
+      "drop": "08:00:00",
+      "end": "08:00:30",
+      "timer": 2,
+      "delay": 1,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "counter"
+      ],
+      "timeFilter": {
+        "enabled": true,
+        "minTime": 18,
+        "maxTime": 22
+      }
+    }
+  },
+  {
+    "name": "Via Carota",
+    "enabled": false,
+    "venueID": 2567,
+    "partyMin": 2,
+    "partyMax": 4,
+    "grabMax": 15,
+    "baseURL": "https://resy.com/cities/ny/via-carota",
+    "offset": 30,
+    "accountType": "normal",
+    "passiveMonitoring": false,
+    "monitor": {
+      "type": "scheduled",
+      "start": "09:58",
+      "drop": "10:00:00",
+      "end": "10:01:30",
+      "timer": 3,
+      "delay": 0,
+      "exclude": [
+        "bar",
+        "outdoor",
+        "lunch",
+        "counter"
+      ],
+      "timeFilter": {
+        "enabled": false
+      }
+    }
+  }
+]
